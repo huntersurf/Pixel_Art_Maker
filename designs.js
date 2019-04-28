@@ -15,7 +15,6 @@ function makeGrid(evt) {
 
 function colorCells() {
   var table = document.querySelector('#pixelCanvas');
-  var cells = table.getElementsByClassName('colored');
 
   table.addEventListener('click', function(et) {
     const t = et.target;
