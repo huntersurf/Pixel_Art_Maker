@@ -28,7 +28,7 @@ function pixelArt() {
   document.addEventListener('submit', function(evt) {
     event.preventDefault();
     makeGrid(evt);
-    timesClicked = 0;
+    var timesClicked = 0;
     submit.addEventListener('click', function() {
       timesClicked++;
       if (timesClicked >= 1) {
